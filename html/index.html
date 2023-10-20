@@ -13,16 +13,132 @@
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/style.css" />
   </head>
+
   <body>
-    <header>
-      <h1>bonjour</h1>
+    <header class="header">
+      <img
+        class="header__picture"
+        src="../assets/profile_picture.png"
+        alt="profile picture"
+      />
+      <img
+        class="header__logo"
+        src="../assets/logo_font.png"
+        alt="typographic logo"
+      />
+      <img
+        class="header__icon"
+        src="../assets/burger_menu.png"
+        alt="burger menu"
+      />
     </header>
-    <main>
-      <section id="intro"></section>
-      <section id="journey"></section>
-      <section id="skills"></section>
-      <section id="projects"></section>
+    <main class="main">
+      <section class="intro" id="intro">
+        <h1 class="intro__title">Web and Web Mobile Developer<span>.</span></h1>
+        <p class="intro__text">
+          Hello ! I’m Antoine, a web developer who has undergone professional
+          retraining. I acquired a solid grounding in PHP and had the
+          opportunity to discover the captivating world of React. I’m always
+          trying to learn and improve myself, so check my projects section ! I'm
+          located in Normandy, so if you're searching a passionate junior web
+          dev contact me without delay !
+        </p>
+      </section>
+      <section class="journey" id="journey">
+        <h1 class="journey__title">Journey<span>.</span></h1>
+        <p class="journey__text">
+          I started out self-taught, but then I realized what a vast field web
+          development was. It was by far the best rabbit hole I could have
+          fallen into! So I decided to entrust my teaching to specialists: the
+          O'clock solution came to me. In March 2023, my conversion began in
+          earnest. I learned the basics of PHP, then discovered React during a
+          1-month specialization. Today, I'm preparing to take my DWWM
+          professional title, and I'm continuing to train in the technologies
+          that inspire me, with the aim of constantly expanding my skills. To be
+          continued...
+        </p>
+        <img
+          class="journey__icon"
+          src="../assets/rocketicon.png"
+          alt="rocket launcking icon"
+        />
+      </section>
+      <section id="skills">
+        <img
+          class="skills__icon"
+          src="../assets/hammericon.png"
+          alt="hammer icon"
+        />
+        <h1 class="skills__title__primary">Skills<span>.</span></h1>
+        <h2 class="skills__title__secondary">Front-end<span>.</span></h2>
+        <img
+          class="skills__decoration"
+          src="../assets/listdecoration.png"
+          alt="decorative wave shape"
+        />
+        <ul class="skills__list">
+          <li class="skills__list__element">
+            <img src="../assets/js_icon.png" alt="javascript icon" />Javascript
+          </li>
+          <li class="skills__list__element">
+            <img src="../assets/react_icon.png" alt="react icon" />React
+          </li>
+          <li class="skills__list__element">
+            <img src="../assets/ts_icon.png" alt="typescript icon" />Typescript
+          </li>
+        </ul>
+        <h2 class="skills__title__secondary">Back-end<span>.</span></h2>
+        <img
+          class="skills__decoration"
+          src="../assets/listdecoration.png"
+          alt="decorative wave shape"
+        />
+        <ul class="skills__list">
+          <li class="skills__list__element">
+            <img src="../assets/php_icon.png" alt="PHP icon" />PHP
+          </li>
+          <li class="skills__list__element">
+            <img src="../assets/mysql_icon.png" alt="my sql icon" />MySql
+          </li>
+          <li class="skills__list__element">
+            <img src="../assets/symfo_icon.png" alt="symfony icon" />Symfony
+          </li>
+        </ul>
+      </section>
+      <section id="projects">
+        <img
+          class="projects__icon"
+          src="../assets/code_icon.png"
+          alt="a code symbolic icon"
+        />
+        <h1 class="projects__itle">Projects<span>.</span></h1>
+        <p class="projects__text--strong">
+          <strong>I'm always working on !</strong>
+        </p>
+        <p class="projects__text">
+          To rigorously apply everything I learn, I try to constantly come up
+          with new ideas for projects.
+        </p>
+        <button class="projects__button">
+          See my work<img
+            class="projects__button__icon"
+            src="../assets/arrow_icon.png"
+            alt="arrow"
+          />
+        </button>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <a class="footer__iconlink" href="#"
+        ><img src="../assets/github_icon.png" alt="github icon"
+      /></a>
+      <a class="footer__iconlink" href="#"
+        ><img src="../assets/linkedin_icon.png" alt="linkedin icon"
+      /></a>
+      <a class="footer__link" href="#">My work</a>
+      <a class="footer__link" href="#">Diary</a>
+      <a class="footer__link" href="#">My résumé</a>
+      <p class="footer__text">Designed and built by Antoine Savreux</p>
+    </footer>
   </body>
 </html>
