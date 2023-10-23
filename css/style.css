@@ -1,3 +1,246 @@
 body {
   font-family: "Inter", sans-serif;
+  font-size: 16px;
+  width: 100%;
+
+  .header {
+    background-color: #023047;
+    display: flex;
+    align-items: center;
+    padding: 20px 10px 20px 30px;
+
+    .header__picture {
+      width: 37px;
+      height: 37px;
+      border: 2px solid #ffb703;
+      border-radius: 100%;
+    }
+
+    .header__logo {
+      width: 100px;
+      height: 15px;
+      margin-left: auto;
+      object-fit: contain;
+    }
+
+    .header__icon {
+      width: 25px;
+      height: 15px;
+      margin-left: auto;
+    }
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    background-color: #023047;
+    padding: 15px 30px 50px 30px;
+    gap: 40px;
+
+    .intro__title {
+      font-weight: 900;
+      font-size: 2.5em;
+      color: #ffb703;
+      width: 75%;
+      line-height: 1.25em;
+
+      span {
+        color: #f9f9f9;
+      }
+    }
+
+    .intro__text {
+      color: #f9f9f9;
+      text-align: justify;
+    }
+  }
+
+  .journey {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffb703;
+    padding: 50px 30px 0 30px;
+
+    .journey__title {
+      font-weight: 900;
+      font-size: 2.5em;
+      color: #f9f9f9;
+      padding-bottom: 40px;
+
+      span {
+        color: #023047;
+      }
+    }
+
+    .journey__text {
+      color: #f9f9f9;
+      text-align: justify;
+      padding-bottom: 30px;
+    }
+
+    .journey__icon {
+      align-self: center;
+      height: 180px;
+      width: 180px;
+    }
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #023047;
+    padding: 50px 30px 30px 30px;
+
+    .skills__icon {
+      width: 35px;
+      height: 35px;
+      padding-right: 15px;
+    }
+
+    .skills__title__primary {
+      font-weight: 900;
+      font-size: 2.5em;
+      color: #ffb703;
+      width: 80%;
+
+      span {
+        color: #f9f9f9;
+      }
+    }
+
+    .skills__title__secondary {
+      width: 100%;
+      font-weight: 900;
+      color: #f9f9f9;
+      font-size: 1.5em;
+      padding: 30px 30px;
+      margin-left: 40px;
+    }
+
+    .skills__decoration--primary {
+      height: 130px;
+      margin-left: 80px;
+    }
+
+    .skills__decoration--secondary {
+      height: 130px;
+      transform: scaleX(-1);
+    }
+
+    .skills__list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .skills__list__element {
+        color: #f9f9f9;
+        font-weight: 500;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        img {
+          padding-right: 10px;
+          height: 25px;
+          width: 25px;
+        }
+      }
+    }
+
+    .skills__list--secondary {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-left: 80px;
+
+      .skills__list__element {
+        color: #f9f9f9;
+        font-weight: 500;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        img {
+          padding-right: 10px;
+          height: 25px;
+          width: 25px;
+        }
+      }
+    }
+  }
+
+  .projects {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 30px 30px 30px;
+
+    .projects__icon {
+      height: 35px;
+      width: 35px;
+      padding-right: 15px;
+    }
+
+    .projects__title {
+      font-weight: 900;
+      font-size: 2.5em;
+      color: #023047;
+      padding-bottom: 25px;
+
+      span {
+        color: #ffb703;
+      }
+    }
+
+    .projects__text--strong {
+      font-weight: 600;
+      font-size: 1.4em;
+      color: #023047;
+    }
+
+    .projects__text {
+      color: #023047;
+      padding-top: 15px;
+      padding-bottom: 30px;
+    }
+
+    .projects__button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      background-color: #ffb703;
+      color: #f9f9f9;
+      font-weight: 400;
+      font-size: 1em;
+      width: 185px;
+      height: 50px;
+      border: none;
+      border-radius: 30px;
+      padding-left: 30px;
+
+      .projects__button__icon {
+        width: 12px;
+        height: 19px;
+        padding-left: 30px;
+      }
+    }
+  }
+
+  .footer {
+    background-color: #023047;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 30px 8px 30px;
+
+    .footer__link {
+      color: #f9f9f9;
+    }
+
+    .footer__text {
+      padding-top: 30px;
+      font-size: 0.7em;
+      color: #f9f9f9;
+    }
+  }
 }
